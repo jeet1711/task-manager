@@ -1,0 +1,71 @@
+//INSERTING DATA
+    // db.collection('users').insertOne({
+    //     name: 'Sagnik',
+    //     age: 20
+    // },(error,result) => {
+    //     if(error){
+    //         return console.log('Unable to insert')
+    //     }
+    //     console.log(result.ops)
+    // })
+
+    // db.collection('users').insertMany([
+    //     {
+    //         name: 'Sagnik',
+    //         age: 20
+    //     },
+    //     {
+    //         name: 'Jeet',
+    //         age: 21
+    //     }
+    // ],(error, result) => {
+    //     if(error){
+    //         console.log('Unable to insert data')
+    //     }
+    //     console.log(result.ops);
+    // })
+
+    //FETCHING(READ) DATA
+    // db.collection('users').findOne({name: 'Sagnik'}, (error,user) => {
+    //     if(error) {
+    //         return console.log("Unable to fetch")
+    //     }
+    //     console.log(user)
+    // })
+
+    // db.collection('users').findOne({_id: new ObjectId("/copy id from db/")'}, (error,user) => {
+    //     if(error) {
+    //         return console.log("Unable to fetch")
+    //     }
+    //     console.log(user)
+    // })
+
+    // db.collection('users').find({age: 20}).toArray((error,user) => {
+    //     console.log(user)
+    // })
+    
+    //UPDATE DATA
+    //db.collection('users').updateOne({
+    //     _id: new ObjectID("/copy from db")
+    // },{
+    //     $set: {
+    //         name: 'Mike'
+    //     }
+    // })
+    // .then((result) => {
+    //     console.log(result);
+    // }).catch((error) => {
+    //     console.log(error);
+    // })
+
+    //DELETE DATA
+    //db.collection('users').deleteMany({
+    //     age: 27
+    // })
+    // .then((result) => {
+    //     console.log(result);
+    // }).catch((error) => {
+    //     console.log(error);
+    // })
+
+
